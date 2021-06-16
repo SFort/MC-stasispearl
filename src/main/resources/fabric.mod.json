@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "quickfix_statispearl",
+  "version": "${version}",
+
+  "name": "QF- stasis pearl",
+  "description": "",
+  "authors": [
+    "SFort"
+  ],
+  "contact": {
+    "sources": "https://github.com/SFort/MC-stasispearl"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "mixins": [
+    "stasispearl.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}
